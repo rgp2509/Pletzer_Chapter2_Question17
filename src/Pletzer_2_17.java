@@ -1,3 +1,7 @@
+/* Code created by Ryan Pletzer, All rights Reserved.
+This code uses methods inorder to show good main discipline; while streamlining lines inorder to avoid obscuration.
+ */
+
 import java.util.Scanner;
 public class Pletzer_2_17 {
     static double temp, wind;
@@ -15,7 +19,7 @@ public class Pletzer_2_17 {
         System.out.println("Welcome to the wind chill calculator");
         System.out.println("I will calculate the the windchill outside. With temperatures between -58 F and");
         System.out.println("41 F with a wind index >= 2 Miles per hour");
-        System.out.println("Please enter a Temperature between -58 and 41 F: Ex. 5.3");
+        System.out.println("Please enter a Temperature between -58 and 41 F: Ex.\" 5.3\"");
         temp = input.nextDouble();
         System.out.println("please enter a wind index >= 2 Miles per hour now: ex \"6.0\"");
         wind = input.nextDouble();
